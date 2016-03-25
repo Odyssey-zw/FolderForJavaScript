@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<script type="text/javascript" src="testBase.js"></script>
+<title>Demo</title>
+</head>
+<body>
+
+<div>这是一个div</div>
+
+<script type="text/javascript">
+	var Bird = new b.Class({
+		//作为自身属性将被调用，里面必须采用this.XX的方式书写
+	    _properties_ : function(){
+	        this.name = "鸟类";
+	        this.age = 3;
+	    },
+
+	    //一定会被执行的初始化方法
+	    init : function(){
+	    	console.log("一定执行的方法01");
+	    	console.log(arguments);
+	    },
+
+		//原型方法
+	    breathe : function(){
+	    	console.log("会呼吸")
+	    }
+
+	});
+
+	var supInstance = new Bird({des:"测试init方法捕获参数"});
+
+	var Chicken = new b.Class(Bird,{
+	   _properties_ : function(){
+	        this.sex = "公"
+	   },
+	   init : function(){
+	        console.log("鸡");
+	        console.log(arguments);
+	   },
+	   howl : function(){
+	       consle.log("打鸣");
+	   }
+	})
+
+	var sonInstance = new Chicken({des:"测试init方法捕获参数"});
+
+</script>
+
+</body>
+</html>
