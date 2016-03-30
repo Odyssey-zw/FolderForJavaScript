@@ -1,0 +1,291 @@
+[
+    {
+        "heroId": "124",
+        "heroName": "小精灵"
+    },{
+        "heroId": "57",
+        "heroName": "白牛"
+    },{
+        "heroId": "52",
+        "heroName": "凤凰"
+    },{
+        "heroId": "50",
+        "heroName": "人马"
+    },{
+        "heroId": "47",
+        "heroName": "刚背猪"
+    },{
+        "heroId": "42",
+        "heroName": "死骑"
+    },{
+        "heroId": "37",
+        "heroName": "神灵武士"
+    },{
+        "heroId": "33",
+        "heroName": "斧王"
+    },{
+        "heroId": "30",
+        "heroName": "小小"
+    },{
+        "heroId": "29",
+        "heroName": "神牛"
+    },{
+        "heroId": "61",
+        "heroName": "树精卫士"
+    },{
+        "heroId": "65",
+        "heroName": "末日使者"
+    },{
+        "heroId": "67",
+        "heroName": "龙骑士"
+    },{
+        "heroId": "122",
+        "heroName": "魔像"
+    },{
+        "heroId": "119",
+        "heroName": "大地之灵"
+    },{
+        "heroId": "93",
+        "heroName": "屠芙"
+    },{
+        "heroId": "91",
+        "heroName": "奥丁之子"
+    },{
+        "heroId": "89",
+        "heroName": "沙王"
+    },{
+        "heroId": "87",
+        "heroName": "狼人"
+    },{
+        "heroId": "77",
+        "heroName": "兽王"
+    },{
+        "heroId": "69",
+        "heroName": "流浪剑客"
+    },{
+        "heroId": "68",
+        "heroName": "军团指挥"
+    },{
+        "heroId": "24",
+        "heroName": "熊喵酒仙"
+    },{
+        "heroId": "101",
+        "heroName": "暗夜魔王"
+    },{
+        "heroId": "19",
+        "heroName": "骷髅王"
+    },{
+        "heroId": "1",
+        "heroName": "船长"
+    },{
+        "heroId": "14",
+        "heroName": "大鱼人"
+    },{
+        "heroId": "15",
+        "heroName": "潮汐"
+    },{
+        "heroId": "8",
+        "heroName": "全能骑士"
+    },{
+        "heroId": "51",
+        "heroName": "圣堂刺客"
+    },{
+        "heroId": "83",
+        "heroName": "虚空"
+    },{
+        "heroId": "16",
+        "heroName": "美杜莎"
+    },{
+        "heroId": "49",
+        "heroName": "机枪兵"
+    },{
+        "heroId": "17",
+        "heroName": "骨弓"
+    },{
+        "heroId": "13",
+        "heroName": "小娜迦"
+    },{
+        "heroId": "54",
+        "heroName": "猴子"
+    },{
+        "heroId": "99",
+        "heroName": "幽鬼"
+    },{
+        "heroId": "97",
+        "heroName": "猎魔人"
+    },{
+        "heroId": "60",
+        "heroName": "灰烬之灵"
+    },{
+        "heroId": "63",
+        "heroName": "幻影刺客"
+    },{
+        "heroId": "5",
+        "heroName": "电魂"
+    },{
+        "heroId": "70",
+        "heroName": "赏金猎人"
+    },{
+        "heroId": "45",
+        "heroName": "巨魔"
+    },{
+        "heroId": "44",
+        "heroName": "敌法"
+    },{
+        "heroId": "105",
+        "heroName": "铁面狂人"
+    },{
+        "heroId": "23",
+        "heroName": "影魔"
+    },{
+        "heroId": "26",
+        "heroName": "拍拍熊"
+    },{
+        "heroId": "2",
+        "heroName": "小黑"
+    },{
+        "heroId": "28",
+        "heroName": "复仇"
+    },{
+        "heroId": "121",
+        "heroName": "血魔"
+    },{
+        "heroId": "10",
+        "heroName": "火枪"
+    },{
+        "heroId": "31",
+        "heroName": "月骑"
+    },{
+        "heroId": "32",
+        "heroName": "剑圣"
+    },{
+        "heroId": "41",
+        "heroName": "直升机"
+    },{
+        "heroId": "39",
+        "heroName": "亚龙"
+    },{
+        "heroId": "111",
+        "heroName": "水人"
+    },{
+        "heroId": "55",
+        "heroName": "灵魂守卫"
+    },{
+        "heroId": "35",
+        "heroName": "白虎"
+    },{
+        "heroId": "81",
+        "heroName": "暗影萨满"
+    },{
+        "heroId": "79",
+        "heroName": "天怒法师"
+    },{
+        "heroId": "6",
+        "heroName": "恶魔巫师"
+    },{
+        "heroId": "85",
+        "heroName": "先知"
+    },{
+        "heroId": "3",
+        "heroName": "火女"
+    },{
+        "heroId": "7",
+        "heroName": "痛苦女王"
+    },{
+        "heroId": "103",
+        "heroName": "大魔导师"
+    },{
+        "heroId": "107",
+        "heroName": "黑暗小丑"
+    },{
+        "heroId": "4",
+        "heroName": "宙斯"
+    },{
+        "heroId": "109",
+        "heroName": "科学怪人"
+    },{
+        "heroId": "113",
+        "heroName": "厄运之源"
+    },{
+        "heroId": "117",
+        "heroName": "冰龙"
+    },{
+        "heroId": "115",
+        "heroName": "死神"
+    },{
+        "heroId": "95",
+        "heroName": "蜘蛛女郎"
+    },{
+        "heroId": "75",
+        "heroName": "吸血鬼"
+    },{
+        "heroId": "43",
+        "heroName": "死亡先知"
+    },{
+        "heroId": "18",
+        "heroName": "骨法"
+    },{
+        "heroId": "40",
+        "heroName": "光法"
+    },{
+        "heroId": "38",
+        "heroName": "双头龙"
+    },{
+        "heroId": "36",
+        "heroName": "巫妖"
+    },{
+        "heroId": "34",
+        "heroName": "沉默"
+    },{
+        "heroId": "20",
+        "heroName": "死灵法师"
+    },{
+        "heroId": "21",
+        "heroName": "黑鸟"
+    },{
+        "heroId": "22",
+        "heroName": "暗牧"
+    },{
+        "heroId": "27",
+        "heroName": "蓝胖"
+    },{
+        "heroId": "48",
+        "heroName": "术士"
+    },{
+        "heroId": "53",
+        "heroName": "召唤师"
+    },{
+        "heroId": "73",
+        "heroName": "机甲浣熊"
+    },{
+        "heroId": "71",
+        "heroName": "仙女龙"
+    },{
+        "heroId": "9",
+        "heroName": "修补匠"
+    },{
+        "heroId": "11",
+        "heroName": "风行"
+    },{
+        "heroId": "66",
+        "heroName": "炸弹人"
+    },{
+        "heroId": "12",
+        "heroName": "冰女"
+    },{
+        "heroId": "64",
+        "heroName": "冰魂"
+    },{
+        "heroId": "62",
+        "heroName": "风暴之灵"
+    },{
+        "heroId": "59",
+        "heroName": "老鹿"
+    },{
+        "heroId": "56",
+        "heroName": "巫医"
+    },{
+        "heroId": "25",
+        "heroName": "小鹿"
+    }
+]

@@ -1,0 +1,79 @@
+[{
+	"roleNumber" : 1,
+	"roleName" : "迪诺",
+	"introduction" : "掌握技能后可以指挥蛋壳作战并通过技能带给部队各种增益效果。",
+	"attackMethod" : "陆地、单体",
+	"recommendSkill" : "再生、左右互搏、致命一击"
+},{
+	"roleNumber" : 2,
+	"roleName" : "精灵龙",
+	"introduction" : "游戏里唯一的医疗英雄，治疗英雄和龙、增加增益效果。",
+	"attackMethod" : "空中、范围治疗",
+	"recommendSkill" : "自我治疗、治疗圈"
+},{
+	"roleNumber" : 3,
+	"roleName" : "三角龙",
+	"introduction" : "游戏里唯一的远程攻击恐龙，隔空能力、隔墙拆塔能力都非常强。",
+	"attackMethod" : "远程、单体",
+	"recommendSkill" : "火球、灼热射击、火海、神射手"
+},{
+	"roleNumber" : 4,
+	"roleName" : "疾电龙",
+	"introduction" : "擅长各种力场控制战局，为友军提供增益状态；还可携带超多小兵。",
+	"attackMethod" : "空中、弹射",
+	"recommendSkill" : "静态力场、速度光环、治疗反制"
+},{
+	"roleNumber" : 5,
+	"roleName" : "钢背龙",
+	"introduction" : "极其强悍的战士，别想让他低头，灵活性差了一点。",
+	"attackMethod" : "近战、单体",
+	"recommendSkill" : "穿上护甲、不服来战、强击光环"
+},{
+	"roleNumber" : 6,
+	"roleName" : "霸王龙",
+	"introduction" : "拥有极强的地面作战能力，陆上终极杀手。",
+	"attackMethod" : "近战、单体",
+	"recommendSkill" : "咆哮、嘲讽、重生"
+},{
+	"roleNumber" : 7,
+	"roleName" : "粉爆龙",
+	"introduction" : "擅长摧毁防御措施和范围杀伤，更能以生命为代价引爆各种防御塔。",
+	"attackMethod" : "近战、溅射",
+	"recommendSkill" : "牺牲、魅惑"
+},{
+	"roleNumber" : 8,
+	"roleName" : "小盗龙",
+	"introduction" : "以快速奔袭和劫掠资源见长，短跑健将，眼神总是紧紧盯着敌方的宝藏，擅长陆上突袭。",
+	"attackMethod" : "近战、单体",
+	"recommendSkill" : "连击、破釜沉舟"
+},{
+	"roleNumber" : 9,
+	"roleName" : "霜冻龙",
+	"introduction" : "拥有非常强大的冰属性范围伤害和控制能力，被誉为空中移动炮台。",
+	"attackMethod" : "空中、溅射",
+	"recommendSkill" : "深呼吸、冰甲号令"
+},{
+	"roleNumber" : 10,
+	"roleName" : "淘气龙",
+	"introduction" : "作为飞行恐龙，它移动速度慢、攻击速度慢、防御低，但如果让它靠近你的防御塔，它会爆发。",
+	"attackMethod" : "空中、溅射",
+	"recommendSkill" : "雄鹰坠落、牺牲"
+},{
+	"roleNumber" : 11,
+	"roleName" : "慈母龙",
+	"introduction" : "",
+	"attackMethod" : "",
+	"recommendSkill" : ""
+},{
+	"roleNumber" : 12,
+	"roleName" : "摇滚龙",
+	"introduction" : "",
+	"attackMethod" : "",
+	"recommendSkill" : ""
+},{
+	"roleNumber" : 13,
+	"roleName" : "多棘龙",
+	"introduction" : "",
+	"attackMethod" : "",
+	"recommendSkill" : ""
+}]

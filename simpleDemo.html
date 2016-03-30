@@ -12,17 +12,29 @@
 </div>
 
 <script type="text/javascript">
-	var Person = function (name, age) {
-	    this.name = name;
-	    this.age = age;
-	};
-	Person.prototype.getName = function () {
-	    return this.name;
-	};
-	var y = new Person('zw', 25);
-	var div1 = document.getElementById("div1");
+	// var Person = function (name, age) {
+	//     this.name = name;
+	//     this.age = age;
+	// };
+	// Person.prototype.getName = function () {
+	//     return this.name;
+	// };
+	// var y = new Person('zw', 25);
+	// var div1 = document.getElementById("div1");
 
-	var d = "";
+	// var d = "";
+
+	/******** string 字符串占位符替换 **************/
+	function format(string){
+	    var args = arguments;
+	    var pattern = new RegExp("%([1-" + arguments.length + "])", "g");   
+	    return String(string).replace(pattern,function(match,index){
+	        return args[index];
+	    })
+	}
+
+	format("I am %1 and want to know whose %2 you %3", "papers", "shirt", "wear");
+
 	
 </script>
 

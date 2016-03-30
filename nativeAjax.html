@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="css/mainIndex.css">
+	<script type="text/javascript">
+
+	//******************************* utils start ***********************//
+	var utils = {
+		trim : function(str){ 
+			return str.replace(/^\s\s*/, '').replace(/\s\s*$/, ''); 
+		}
+	};
+	//******************************* utils  end ***********************//
+	//******************************* ajax  start***********************//
+	var ajax = function(conf) {
+		var type = conf.type == null ? "GET" : utils.trim(conf.type).toUpperCase(), 				//String  type参数,可选,默认为get
+	        url = utils.trim(conf.url), 					//String  url参数，必填
+	        data = conf.data, 								//String  data参数可选，只有在post请求时需要
+	        dataType = conf.dataType == null ? "text" : utils.trim(conf.dataType).toUpperCase(), 	//String  datatype参数可选
+	        async = conf.async == null ? true : conf.async,								//Boolean	是否异步
+	        success = conf.success, 													//Function  回调函数可选
+			xhr = (function(){	 //创建XMLHttpRequest对象
+				if (typeof XMLHttpRequest != "undefined") {
+	            	return new XMLHttpRequest();
+		        } else if (typeof ActiveXObject != "undefined") {
+		            if (typeof arguments.callee.activeXString != "string") {
+		                var versions = ["MSXML2.XMLHttp.6.0", "MSXML2.XMLHttp.3.0", "MSXML2.XMLHttp"], i, len;
+		                for (i = 0, len = versions.length; i < len; i++) {
+		                    try {
+		                        new ActiveXObject(versions[i]);
+		                        arguments.callee.activeXString = versions[i];
+		                        break;
+		                    } catch (ex) {
+		                        console.log(ex);
+		                    }
+		                }
+		            }
+		            return new ActiveXObject(arguments.callee.activeXString);
+		        } else {
+		            throw new Error("No XHR object available.");
+		        }
+			})();
+
+        xhr.open(type, url, async);
+        if (type == "GET") {
+            xhr.send(null);
+        } else if (type == "POST") {
+            xhr.setRequestHeader("content-type", "application/x-www-form-urlencoded");
+            xhr.send(data);
+        };
+        xhr.onreadystatechange = function() {		//回调函数
+			if (xhr.readyState == 4) {
+	            if ((xhr.status >= 200 && xhr.status < 300 || xhr.status == 304) && (success != null)) {
+	            	if (dataType == "text" || dataType == "TEXT") {		
+	                    success(xhr.responseText); 		// 普通文本
+	                } else if (dataType == "xml" || dataType == "XML") {            		
+	                    success(xhr.responseXML);  		// 接收xml文档
+	                } else if (dataType == "json" || dataType == "JSON") {
+	                    success(eval("(" + xhr.responseText + ")"));  		// 将json字符串转换为js对象
+	                }
+	            } else {
+	                console.error("error:" + xhr.status);
+	            }
+	        }
+        };
+	};
+	//******************************* ajax end ***********************//
+
+	</script>
+	<title>mainContainer</title>
+</head>
+
+<body>
+
+<div class="header">
+	<div class="header_box">
+		<h1 class="logo">SHOWHEROS</h1>
+		<h2 class="sub_tit">英雄展示</h2>
+	</div>
+</div>
+
+<div id="container" class="container">
+	<!-- <div id="heroDiv2" class="heroDiv">
+			<img src="images/heros/heroDiv2" alt="heroDiv2" title="heroDiv2">
+			<em></em>
+	</div> -->
+</div>
+
+<script type="text/javascript">
+
+    	function fillContainer(heros) {
+    		var container = document.getElementById("container"),innerContent="";
+
+	    	for(var i=0;i<heros.length;i++){
+	    		var imgLink = "images/heros/" + heros[i].heroId + ".jpg";
+	    		var heroName = heros[i].heroName;
+	    		innerContent += "<div id='heroDiv"+ heros[i].heroId +"' class='heroDiv' draggable='true'><img src='"+ imgLink +"' alt='"+heros[i].heroName+"' title='"+heros[i].heroName+"'><span>"+heros[i].heroName+"</span></div>";
+	    	}
+	    	container.innerHTML = innerContent;
+    	}
+
+    	(window.onload = function(){
+    		ajax({
+			    type : "get",
+			    url : "heros.json",
+			    dataType : "json",
+			    async : true,
+			    success : function(data){
+			        fillContainer(data);
+			    }
+			});
+    	})();
+
+	</script>
+
+</body>
+</html>
